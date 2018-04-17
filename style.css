@@ -1,0 +1,60 @@
+/*.piedra {
+    margin: 5px;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.papel {
+    margin: 5px;
+    float: center;
+    height: 100px;
+    width: 100px;
+}
+
+.tijeras {
+    margin: 5px;
+    float: right;
+    height: 100px;
+    width: 100px;
+}*/
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 33%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    width: 33%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
